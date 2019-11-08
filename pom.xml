@@ -18,22 +18,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
- <distrubtionmanagement>
-   
-	 <repository>
-	    <id>release</id>
-		<name>Release_Repo</name>
-		<url>http://localhost:8081/repository/Release_Repo/</url>
-	 </repository>
-	 
-	 <snapshotRepository>
-	     <id>snapshots</id>
-		 <name>SnapShot_Repo</name>
-		 <url>http://localhost:8081/repository/Snapshot/</url>
-	 </snapshotRepository>
-	 
-   </distrubtionmanagement>
+<distributionmanagement>
+	
+   <repository> 
+     <id>release</id>
+     <name>Release_Repo</name>
+     <url>http://localhost:8081/repository/Release_Repo/</url>
+   </repository>
 
+   <snapshotRepository>
+     <id>snapshots</id>
+     <name>SnapShot_Repo</name>
+     <url>http://localhost:8081/repository/Snapshot/</url>
+   </SnapshotRepository>
+
+</distributionmanagement>
 
   <dependencies>
     <dependency>
