@@ -18,7 +18,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-<distributionmanagement>
 	
    <repository> 
      <id>release</id>
@@ -31,8 +30,6 @@
      <name>SnapShot_Repo</name>
      <url>http://localhost:8081/repository/Snapshot/</url>
    </SnapshotRepository>
-
-</distributionmanagement>
 
   <dependencies>
     <dependency>
