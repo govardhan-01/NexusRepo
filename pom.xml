@@ -18,17 +18,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>central</id>
-      <name>Maven Repository Switchboard</name>
-      <layout>default</layout>
-      <url>http://repo1.maven.org/maven2</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
+ <distrubtionmanagement>
+   
+	 <repository>
+	    <id>release</id>
+		<name>Release_Repo</name>
+		<url>http://localhost:8081/repository/Release_Repo/</url>
+	 </repository>
+	 
+	 <snapshotRepository>
+	     <id>snapshots</id>
+		 <name>SnapShot_Repo</name>
+		 <url>http://localhost:8081/repository/Snapshot/</url>
+	 </snapshotRepository>
+	 
+   </distrubtionmanagement>
 
 
   <dependencies>
